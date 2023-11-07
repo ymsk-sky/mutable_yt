@@ -20,6 +20,7 @@ Python製iOS向けYouTubeプレイヤーアプリ.
 |perf|パフォーマンス向上|
 |test|テスト関連|
 |chore|ビルド, 補助ツール, ライブラリ関連|
+|WIP|Work In Progress 作成中, お試し|
 
 ## references
 - [kivy公式](https://kivy.org/)

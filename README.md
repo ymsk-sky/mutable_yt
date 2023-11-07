@@ -1,4 +1,4 @@
-# mutable_ty
+# mutable_yt
 Python製iOS向けYouTubeプレイヤーアプリ.
 
 ## why?

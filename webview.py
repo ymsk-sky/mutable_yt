@@ -6,4 +6,4 @@ class WebView(ModalView):
         super().__init__(**kwargs)
         self.url = url
         self.webview = None
-        self.open()
+        self.open(url)

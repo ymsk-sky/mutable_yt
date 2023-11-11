@@ -8,7 +8,6 @@ from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.button import Button
 from kivy.uix.label import Label
 from kivy.uix.textinput import TextInput
-from kivy.uix.widget import Widget
 
 
 class MyApp(App):
@@ -19,7 +18,7 @@ class MyApp(App):
         url_input = TextInput(hint_text="Enter URL", multiline=False)
         # URL開くボタン
         open_button = Button(text="GO", on_press=self.open_url)
-        # WebView表示用のウィジェット
+        # WebView表示用のラベル
         webview = Label(text="web content here", markup=True)
 
         layout.add_widget(url_input)
